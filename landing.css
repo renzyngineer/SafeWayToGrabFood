@@ -3,77 +3,52 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 body{
+    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
-.container {
-    text-align: center; /* Centers children horizontally */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers children vertically */
-}
-
-input, button{
+button{
     border: none;
     outline: none;
     background: none;
+    align-content: center;
 }
 
 img {
-        /* image 2 */
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    width: 376px;
-    height: 276px;
-    top: 100px;
+    width: 50%;
+}
+
+.container{
+    text-align: center;
 }
 
 h1 {
-/* Safe Way to Grab Food */
-
-position: absolute;
-width: 461px;
-height: 60px;
-top: 450px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
-color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3000px;
+    line-height: 60px;
+    color: #000000;
+    padding: 50px;
 }
 
 button.register {
-/* Rectangle 3 */
-left: 475px;
-position: absolute;
-width: 200px;
-height: 42px;
-top: 584px;
-background: #CCEEFB;
-border-radius: 8px;
-
-
+    width: 252px;
+    height: 42px;
+    background: #CCEEFB;
+    border-radius: 8px;
 }
 
 button.login {
-/* Rectangle 2 */
-
-position: absolute;
-width: 200px;
-height: 42px;
-left: 725px;
-top: 584px;
-background: #CCEEFB;
-border-radius: 8px;
-
+    width: 252px;
+    height: 42px;
+    background: #CCEEFB;
+    border-radius: 8px;
 }
