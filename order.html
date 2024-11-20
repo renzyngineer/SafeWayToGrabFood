@@ -1,0 +1,108 @@
+87% of storage used … If you run out, you can't create, edit, and upload files. Get 100 GB of storage for ₱89.00 ₱22.25/month for 2 months.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Way to Grab Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./order.css" />
+</head>
+<body class="bg-body-tertiary">
+    <div class="container">
+        <main>
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="./images/albertsonsLogo.png" alt="" width="72" height="57">
+                <h2 style="font-weight: bold;">Orders are waiting for you to update. Let's check them out!</h2>
+                <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+            </div>
+            <div class="container-xl">
+                <div class="table-responsive">
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+                                <div class="col-sm-6"><h2><b>Manage Orders</b></h2></div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary active">
+                                            <input type="radio" name="status" value="all" checked="checked"> All
+                                        </label>
+                                        <label class="btn btn-success">
+                                            <input type="radio" name="status" value="active"> Active
+                                        </label>
+                                        <label class="btn btn-warning">
+                                            <input type="radio" name="status" value="inactive"> Inactive
+                                        </label>
+                                        <label class="btn btn-danger">
+                                            <input type="radio" name="status" value="expired"> Expired
+                                        </label>							
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order No.</th>
+                                    <th>Customer Name</th>
+                                    <th>Order Date</th>
+                                    <th>Order Status</th>
+                                    <th>Floor No.</th>
+                                    <th>Desk No.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-status="active" style="">
+                                    <td>1</td>
+                                    <td><a href="#">natsu.dragneel@albertsons.com</a></td>
+                                    <td>11/20/2024</td>
+                                    <td class="badge badge-primary"><span class="">Active</span></td>
+                                    <td>20</td>
+                                    <td><a href="#" class="btn btn-sm manage">26</a></td>
+                                </tr>
+                                <tr data-status="inactive" style="">
+                                    <td>2</td>
+                                    <td><a href="#">lucy.heartfilia@albertsons.com</a></td>
+                                    <td>11/20/2024</td>
+                                    <td class="badge badge-primary"><span class="">Inactive</span></td>
+                                    <td>20</td>
+                                    <td><a href="#" class="btn btn-sm manage">124</a></td>
+                                </tr>
+                                <tr data-status="active" style="">
+                                    <td>3</td>
+                                    <td><a href="#">gay.fullbuster@albertsons.com</a></td>
+                                    <td>11/20/2024</td>
+                                    <td class="badge badge-primary"><span class="">Active</span></td>
+                                    <td>20</td>
+                                    <td><a href="#" class="btn btn-sm manage">87</a></td>
+                                </tr>
+                                <tr data-status="expired" style="">
+                                    <td>4</td>
+                                    <td><a href="#">erza.scarlet@albertsons.com</a></td>
+                                    <td>11/20/2024</td>
+                                    <td class="badge badge-primary"><span class="">Export</td>
+                                    <td>21</td>
+                                    <td><a href="#" class="btn btn-sm manage">226</a></td>
+                                </tr>
+                                <tr data-status="inactive" style="">
+                                    <td>5</td>
+                                    <td><a href="#">end party@albertsons.com</a></td>
+                                    <td>11/20/2024</td>
+                                    <td class="badge badge-primary"><span class="">Inactive</span></td>
+                                    <td>21</td>
+                                    <td><a href="#" class="btn btn-sm manage">250</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>   
+            </div>
+        </main>
+    </div>
+
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="order.js"></script>
+</body>
+</body>
+</html>
